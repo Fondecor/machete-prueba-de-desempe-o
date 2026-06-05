@@ -1,0 +1,16 @@
+{
+  "name": "gestion-proyectos",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+"scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.15",
+    "vite": "^8.0.12"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Manager Test",
+      "email": "manager@test.com",
+      "password": "123456",
+      "role": "manager"
+    },
+    {
+      "id": "2",
+      "name": "Collaborator Test",
+      "email": "user@test.com",
+      "password": "123456",
+      "role": "collaborator"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Rediseño del Sitio Web",
+      "description": "Actualizar el portal corporativo a tecnologías modernas.",
+      "status": "In Progress",
+      "assignedTo": "2",
+      "assignedToName": "Collaborator Test",
+      "createdAt": "2026-06-04"
+    }
+  ]
+}
